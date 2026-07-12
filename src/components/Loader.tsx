@@ -4,7 +4,7 @@ import DecryptedText from './ReactBits/DecryptedText.tsx';
 
 const LOGS = [
   { limit: 20, text: 'BOOTING ATELIER SYSTEMS...' },
-  { limit: 45, text: 'CONNECTING TO D1 DATABASE WORKFLOWS...' },
+  { limit: 45, text: 'LOADING CREATIVE WORKFLOWS...' },
   { limit: 70, text: 'PARSING MUSIC & VIDEO CORE SCHEMAS...' },
   { limit: 88, text: 'COMPILING STYLES & INTERACTIVE GLOWS...' },
   { limit: 100, text: 'READY.' }
