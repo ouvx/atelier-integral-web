@@ -1,0 +1,19 @@
+.lanyard-canvas-wrap {
+  position: fixed;
+  top: 0;
+  right: clamp(0px, 1vw, 24px);
+  width: 240px;
+  height: 460px;
+  z-index: 28;
+  pointer-events: none;
+}
+
+.lanyard-canvas-wrap canvas {
+  pointer-events: auto;
+}
+
+@media (max-width: 1099px) {
+  .lanyard-canvas-wrap {
+    display: none;
+  }
+}
